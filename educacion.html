@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luis" />
+    <meta name="keywords" content="Luis, fernando, mazo, cañas" />
+    <meta name="description" content="primer examen html" />
+    <link href="css/estilo.CSS" rel="stylesheet" />
+    <title>Educacion</title>
+  </head>
+  <body>
+
+    <header></header>
+      <h1 id="titulo">HOJA DE VIDA</h1>
+      <img id="logo" src="foto/Logo.png" />
+      <h2 id="nombre">Luis Fernando Mazo Cañas</h2>
+    </header>
+
+    <nav id="navegacion">
+      <a href="index.html">Inicio</a>
+      <a href="educacion.html">Educación</a>
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <br>
+    
+    <h3 id="educacion">Educación</h3>   
+    <table id="tabla" border="3">
+      <tr >
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>Pablo vi</td>
+        <td>Manizales</td>
+        <td>si</td>
+      </tr>
+
+      <tr>
+        <td>En curso</td>
+        <td>Universidad de manizales</td>
+        <td>Manizales</td>
+        <td>En curso</td>
+      </tr>
+    </table>
+    <hr />
+    
+    <form>
+    <fieldset style="width: 0%">
+      <legend>Formulario de registro</legend>
+      <h2>Agregar educación</h2>
+
+      <label><strong>Año :</strong></label>
+      <input type="number" id="año" name="año" max="2022" min="2000" required="true" />
+
+      <label for="Institucion"><strong>Ingrese Institución :</strong></label>
+       <input type="text" id="institucion" name="institucion" required="true"/>
+
+      <label><strong>Lugar :</strong></label>
+      <textarea name="lugar" id="lugar" rows="1" cols="25" required="true"></textarea>
+
+      <label><strong>¿Culmino?</strong></label>
+      
+      <input type="radio" id="radio_id" name="selecciona" value="Si"/>
+      <label for="Si">Si</label>
+   
+      <input type="radio"id="radio" name="selecciona" value="No"/>
+      <label for="No">No</label>
+      
+      <input type="submit" value="enviar" />   
+    </fieldset>
+  </form>
+
+  <footer>
+    <h4>© Derechos reservados</h4>
+    <ul>
+      <li><p><b>Email: </b>Luisfernandomazoc18@gmail.com</p></li>
+      <li><p><b>Telefono: </b> 3207192827</p></li>
+      <li><p><b>Dirección: </b> Cra 31 #15 a 07</p></li>
+    </ul>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+form {
+  margin-right: 33%;
+  margin-left: 35%;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 5%;
+  margin-top: 3%;
+  float: left;
+}
+
+#titulo {
+  margin-left: 40%;
+  margin-right: 44%;
+  margin-bottom: 0%;
+  color: rgb(12, 12, 12);
+  
+}
+#nombre {
+  font-size: 35px;
+}
+
+body {
+  margin-left: 3%;
+  background-color: rgb(255, 255, 255);
+}
+section {
+  float: right;
+  width: 75%;
+  margin-bottom: 15px;
+  margin-right: 10%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(197, 197, 197);
+  box-shadow: 1px 0 4px rgba(10, 10, 10, 0.2);
+  background-color: darkcyan;
+  margin-top: 1%;
+}
+
+footer {
+  float: left;
+  width: 75%;
+}
+
+nav a {   
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;   
+}
+
+#navegacion{
+    margin-top: 4%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: darkcyan;
+    border-radius: 10px 0 10px 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+section img {
+  float: left;
+  margin-right: 5%;
+  margin-top: 0%;
+}
+section h2 {
+  margin-left: 22%;
+}
+
+header {
+  margin-left: 0%;
+}
+
+#educacion {
+  font-size: 30px;
+  margin: 1%;
+}
+
+fieldset {
+  border-radius: 5%;
+}
+
+#logo {
+  float: left;
+  margin-right: 2%;
+  width: 8%;
+}
+
+#descripcion {
+  text-align: center;
+}
+
+
